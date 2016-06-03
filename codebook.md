@@ -14,7 +14,7 @@ In order to enable the creation of the data set asked in the assignment, it was 
 
 The files were combined as follows:<br />
 ---------------------|--------------|---------------|<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|features.txt| NAMES<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|features.txt| NAMES<br />
 ---------------------|--------------|---------------|<br />
 subject_test.txt | Y_test.txt | X_test.txt | OBSERVATIONS<br />
 subject_train.txt| Y_train.txt| X_train.txt|<br />
@@ -28,7 +28,7 @@ Afterwards, I used the file activity_labels.txt to factorize the column activity
 
 To create the requested tidy data set, I used the function aggregate. The result was written as both txt and csv files.
 
-
+The variables of the tidy data set are described below.
 ===============================================================================================================================================================================================================
 
    subject 'ID of the subject.'
