@@ -13,12 +13,11 @@ In order to enable the creation of the data set asked in the assignment, it was 
 * subject_train.txt - Contains the ID of the subjects in the train data set.
 
 The files were combined as follows:<br />
------------------|------------|-----------|<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|features.txt| NAMES<br />
------------------|------------|------------|<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|features.txt| NAMES<br />
 subject_test.txt | Y_test.txt | X_test.txt | OBSERVATIONS<br />
 subject_train.txt| Y_train.txt| X_train.txt|<br />
------------------|------------|------------|<br />
+
 
 After combining all the txt files, the next step was to subset the aggregated data set selecting only the columns that have means and standard deviations.
 
